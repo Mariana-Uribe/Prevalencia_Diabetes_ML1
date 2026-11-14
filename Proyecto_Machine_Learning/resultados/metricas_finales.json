@@ -1,0 +1,51 @@
+{
+  "configuracion": "{'C': 0.1, 'class_weight': 'balanced', 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': 0.0, 'max_iter': 2000, 'n_jobs': None, 'penalty': 'deprecated', 'random_state': 42, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}",
+  "umbral_oof": 0.3748248497914582,
+  "youden_oof": 0.46216243748362684,
+  "prueba_umbral_050": {
+    "umbral": 0.5,
+    "roc_auc": 0.7669743842711673,
+    "pr_auc": 0.3473445792618792,
+    "sensibilidad": 0.6761565836298933,
+    "especificidad": 0.7135785007072136,
+    "precision": 0.31932773109243695,
+    "f1": 0.4337899543378995,
+    "exactitud": 0.7073746312684366,
+    "VP": 190,
+    "VN": 1009,
+    "FP": 405,
+    "FN": 91
+  },
+  "prueba_umbral_seleccionado": {
+    "umbral": 0.3748248497914582,
+    "roc_auc": 0.7669743842711673,
+    "pr_auc": 0.3473445792618792,
+    "sensibilidad": 0.8327402135231317,
+    "especificidad": 0.5912305516265912,
+    "precision": 0.2881773399014778,
+    "f1": 0.4281793229643184,
+    "exactitud": 0.6312684365781711,
+    "VP": 234,
+    "VN": 836,
+    "FP": 578,
+    "FN": 47
+  },
+  "ic95_bootstrap": {
+    "sensibilidad": [
+      0.7903471992729676,
+      0.8743781295428849
+    ],
+    "precision": [
+      0.25451801881768155,
+      0.3217649505362289
+    ],
+    "roc_auc": [
+      0.7398860942648279,
+      0.7904510308110998
+    ],
+    "pr_auc": [
+      0.3016557543186107,
+      0.41141707780327985
+    ]
+  }
+}

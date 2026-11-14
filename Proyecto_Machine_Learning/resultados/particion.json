@@ -1,0 +1,11 @@
+{
+  "n_total": 8475,
+  "n_train": 6780,
+  "n_test": 1695,
+  "hogares_train": 5489,
+  "hogares_test": 1381,
+  "hogares_compartidos": 0,
+  "prevalencia_train": 0.16622418879056047,
+  "prevalencia_test": 0.1657817109144543,
+  "advertencia": "La prueba anterior fue consultada en fase 2; el holdout por hogar de fase 3 NO es completamente ciego porque hay reutilización del dataset y decisiones previas."
+}
