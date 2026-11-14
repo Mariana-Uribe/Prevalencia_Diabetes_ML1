@@ -10,7 +10,7 @@ st.title('Clasificación exploratoria de diabetes')
 st.warning('Uso exclusivamente académico. No diagnostica diabetes ni sustituye una evaluación clínica. Las probabilidades no están calibradas clínicamente.')
 archivo=BASE/'modelos'/'modelo_diabetes.joblib'
 if not archivo.exists():
-    st.error('Falta el modelo. Ejecuta primero todas las celdas del notebook.')
+    st.error('Falta el modelo. Ejecuta primero el cuaderno Entrega_Final_ML1_COMPLETO.ipynb hasta el final.')
     st.stop()
 a=joblib.load(archivo)
 st.caption(f"Modelo: regresión logística L2, umbral de clasificación {a['umbral']:.3f}, validado separando hogares.")
